@@ -1,8 +1,8 @@
 # Finite-case numerical verification for Fraenkel's conjecture
 
 This repository contains the code used for the finite-case numerical
-verification accompanying the manuscript *A Computer-Assisted Proof of
-Fraenkel's Conjecture via Subcritical Fourier Rigidity*.
+verification accompanying the manuscript *A  Proof of
+Fraenkel's Conjecture*.
 
 Here, “numerical verification” means a finite computational check.  The
 decisive programs use exact integer or rational arithmetic and directed
