@@ -1,28 +1,5 @@
 # Fraenkel conjecture finite-case verification package
 
-This package contains the finite-case numerical verification code accompanying
-**A Computer-Assisted Proof of Fraenkel's Conjecture via Subcritical Fourier
-Rigidity** (Revision 2, 29 August 2026).  Here, “numerical verification” means
-a finite computational check: the decisive programs use exact integer or
-rational arithmetic and directed rounding, rather than floating-point
-trigonometric approximations.
-
-Status: this repository is a reproducibility artifact for the manuscript and
-does not by itself constitute a proof.  The manuscript and verification code
-have not yet undergone external peer review.  A Lean formal verification is
-in progress and is expected to be uploaded to this same repository within one
-month after this version is made public.
-
-<span style="color: #0000ff">The current TeX/PDF reapplies the zpi AI-verified
-rigor repairs. All visible manuscript changes are blue, and the section and
-theorem order is unchanged.</span>
-
-Revision 2 was produced after a full red-team audit.  It separates the
-`W=0` case in the bad-weight lemma, removes a safe but inaccurately described
-early-return optimization from the global verifier, expands the exact Fourier
-support formula and shift normalization, and adds line-by-line clarification
-to the deletion-to-induction interface.  None of these changes alters the
-statement of the theorem or the finite search ranges.
 
 ## Files in this repository
 
